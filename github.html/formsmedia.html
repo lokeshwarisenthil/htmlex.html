@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms using media</title>
+   
+</head>
+<style>
+   body{
+        background-color: bisque;
+        border: 20px;
+    }
+
+@media screen and(max-width:550px){
+form{
+   border: 20px;
+}
+}
+    
+
+</style>
+<body>
+    <center>
+    <form >
+    <label for ="firstname"> firstname:</label>
+    <input type="text" id="firstname" name="firstname">
+    <label for="lastname">lastname:</label>
+    <input type="text" id="lastname" name="lastname"><br>
+    <label for="password">password:</label>
+    <input type="password" id="password" name="password">
+    <label for="confirm password">confirm password:</label>
+    <input type="password" id="password" name="password"><br>
+    <input type="submit">
+    </center>
+    </form>
+</body>
+</html>

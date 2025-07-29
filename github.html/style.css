@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+nav{
+
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+li,h1,ul{
+    display: inline;
+}
+
+ul{
+    margin-left: 50%;
+
+}
+
+li{
+    color:grey;
+    cursor: pointer;
+}
+
+li:hover{
+    color:white;
+}
+
+.box{
+    background-color:white;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px;
+    display: inline-block;
+    width: 265px;
+    text-align: center;
+
+
+}
+
+.one{
+    background-color:white;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+   
+
+}
+
+.two{
+    background-color:white;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px;
+    display: inline-block;
+    width:275px;
+    text-align: center;
+    
+    
+
+}
+.three{
+    background-color:white;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px;
+    display: inline-block;
+    width: 275x;
+    text-align: center;
+}
+
+
